@@ -5,7 +5,7 @@ This project is a simple **Question Answering app** built using **Streamlit**, *
 
 ## Environment Setup
 
-### 1️⃣ Create and activate a virtual environment
+### Create and activate a virtual environment
 ```bash
 python -m venv myvenv
 myvenv\Scripts\activate
@@ -17,10 +17,15 @@ pip install streamlit
 pip install python-dotenv
 
 ```
+
+
 .env contains :
 GOOGLE_API_KEY=
+
 LANGCHAIN_API_KEY=
+
 LANGCHAIN_PROJECT="geminiChatbotApp"
 
-To run:
+### Create and activate a virtual environment
+
 streamlit run gemini_app_qa.py
