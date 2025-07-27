@@ -1,5 +1,5 @@
 
-This project is a simple **Question Answering app** built using **Streamlit**, **LangChain** and **Google Gemini API**. It takes user input then sends it to Gemini using LangChain and displays the response in a web interface using streamlit.
+This project is a simple **Question Answering app** and **English to French translator** built using **Streamlit**, **LangChain** and **Google Gemini API**. It takes user input then sends it to Gemini using LangChain and displays the response in a web interface using streamlit.
 
 ---
 
@@ -28,4 +28,6 @@ LANGCHAIN_PROJECT="geminiChatbotApp"
 
 ### Create and activate a virtual environment ( after myvenv\Scripts\activate)
 
-streamlit run gemini_app_qa.py   
+For chat app -> streamlit run gemini_app_qa.py   
+For translator app -> streamlit run gemini_translator.py 
+
