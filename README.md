@@ -26,6 +26,6 @@ LANGCHAIN_API_KEY=
 
 LANGCHAIN_PROJECT="geminiChatbotApp"
 
-### Create and activate a virtual environment
+### Create and activate a virtual environment ( after myvenv\Scripts\activate)
 
-streamlit run gemini_app_qa.py
+streamlit run gemini_app_qa.py   
